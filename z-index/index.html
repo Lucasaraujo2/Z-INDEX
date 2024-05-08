@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .conteudo1 {
+            background-color: blue;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            z-index: 3;
+            background-image: url(img/homer.png);
+            background-size: cover;
+        }
+
+        .conteudo2 {    
+            background-color: yellow;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 7;
+            background-image: url(img/Lamborghini.png);
+            background-size: cover;
+        }
+
+        .conteudo3 {
+            background-color: green;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: 2;
+            background-image: url(img/uno.png);
+            background-size: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="conteudo1">Conteudo 1</div>
+    <div class="conteudo2">conteudo 2</div>
+    <div class="conteudo3">conteudo 3</div>
+</html>
